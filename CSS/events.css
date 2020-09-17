@@ -1,0 +1,95 @@
+.event-container {
+    font-family: "Roboto", S=san-serif;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.event-container .year {
+    font-size: 40px;
+    text-align: center;
+    padding: none;
+    margin: none;
+    border: 1px solid gray;
+    border-radius: 8px ;
+}
+
+.event-container .event {
+    box-shadow: 10px 4px 16px 0 rgba(0,0,0,0.4);
+    display: flex;
+    border-radius: 8px;
+    margin: 32px 0;
+}
+
+.event .event-left {
+    background: black;
+    min-width: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 8px 48px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px 0 0 8px;
+}
+
+.event .event-left .date {
+    font-size: 56px;
+}
+
+.event .event-left .month {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.event .event-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 25px;
+}
+
+.event .event-right .event-title {
+    font-size: 20px;
+    margin: 24px 0 10px 0;
+    color: burlywood;
+    text-transform: uppercase;
+}
+
+.event .event-right .event-timing {
+    background: beige;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    padding: 8px;
+    border-radius: 16px;
+    border: 1px solid black;
+    margin: 24px 0;
+    font-size: 14px
+}
+
+.event .event-right .event-timing img {
+    height: 20px;
+    padding-right: 8px;
+}
+
+@media (max-width: 550px) {
+    .event {
+        flex-direction: column;
+    }
+
+    .event .event-left {
+        padding: 0;
+        border-radius: 8px 8px 0 0;
+    }
+
+    .event .event-left .event-date .date,
+    .event .event-left .event-date .month {
+        display: inline-block;
+        font-size: 24px
+    }
+
+    .event .event-left .event-date {
+        padding: 10px 0;
+    }
+}

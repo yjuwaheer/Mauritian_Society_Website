@@ -1,0 +1,74 @@
+html, body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: border-bpx;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+/*Profile*/
+.profile {
+    background: linear-gradient(140deg, #4094cc, #5f2de7);
+    border-radius: 10px;
+}
+
+.profile-wrap {
+    text-align: center;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.profile-info h1 {
+    font-size: 30px;
+    display: inline-block;
+    font-family: 'Source Code Pro', sans-serif;
+    font-weight: 600;
+    position: relative;
+}
+
+.profile-info h3 {
+    font-size: 20px;
+    font-family: 'Source Code Pro', sans-serif;
+    font-weight: 500;
+}
+
+.profile_intro {
+    padding: 1rem 10px 1.5 rem;
+    max-width: 500px;
+    line-height: 1.5;
+}
+
+.profile-contact .contact {
+    display: inline-block;
+    background-color: #fff;
+    padding: 8px 2rem;
+    text-decoration: none;
+    color: #000000;
+    border-radius: 99rem;
+    border: 2px solid #fff;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.profile-contact .contact:hover {
+    background-color: transparent;
+    color:#fff;
+}

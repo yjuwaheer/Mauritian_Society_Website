@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!--Icon for website-->
+    <link rel="icon" href="Elements/mmsslogo.png">
+
+    <title>MMSS</title>
+</head>
+
+<body class="bg-light">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-image: linear-gradient(to right, #002ABD, #82081E);">
+        <a class="navbar-brand" href="index.html">
+            <img src="Elements/mmsslogo.png" width="30" height="30" class="d-inline-block align-top" alt=""
+                loading="lazy" style="width: 75px; height: 75px;">
+        </a>
+        <!--Navbar Title-->
+        <!--
+        <span class="navbar-text" style="font-family: Comic Sans MS, cursive, sans-serif; font-size: 30px;">| MMSS |</span>
+        -->
+
+        <button class="navbar-toggler border-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html"><b>Home</b> <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="events.html"><b>Events</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html"><b>About Us</b></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--NOTIFICATION-->
+    <div class="container-fluid my-1" style="position: relative;">
+        <div class="toast" style="position: absolute; top: 0; right: 0;" role="alert" aria-live="assertive" aria-atomic="true" data-autohide="false">
+            <div class="toast-header">
+                <img src="Elements/mmsslogo.png" class="rounded mr-2" alt="..." width="20" height="20">
+                <strong class="mr-auto">Notification</strong>
+                <small>From Admin</small>
+                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="toast-body bg-light">
+                Hello, The website is still in beta version.
+                We apologize for any bugs and do note that the
+                final version may largely differ. Thank you.
+            </div>
+        </div>
+    </div>
+
+    <!--Jumbotron-->
+    <div class="jumbotron bg-light text-center my-0 py-4">
+        <h1 class="display-4">Welcome to the official website of MMSS.</h1>
+        <p class="lead">Follow us on our social media pages for exciting events.</p>
+        <hr class="my-1">
+        <p>Follow us:</p>
+        <!--Social Media links-->
+        <a class="btn btn-light btn-lg" href="https://www.facebook.com/MMSSMUN" role="button">
+            <img src="Elements/fb.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+        </a>
+        <a class="btn btn-light btn-lg" href="https://www.instagram.com/mmss_mun/?hl=en" role="button">
+            <img src="Elements/insta.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+        </a>
+    </div>
+
+    <!--Cards-->
+    <div style="background-image: linear-gradient(to right, #002ABD, #00D5E5);">
+        <div class="container py-4">
+            <div class="row">
+                <!--Introduction-->
+                <div class="col-md-6 my-1 py-1">
+                    <div class="card border-secondary">
+                        <div class="card-header card-light">Introducing MMSS</div>
+                        <div class="card-body text-secondary">
+                            <p class="card-text">MMSS was created by a dynamic group of Mauritians who are passionate about educating others about their diverse culture.</p>
+                            
+                            <p>Mauritius is a small island in the Indian Ocean which was colonized by the Dutch in the 15th Century. It was then
+                            colonized by the French followed by the British in the 18th and 19th century. We gain our independence on 12th March
+                            1968.</p>
+                            
+                            <p>We have people from all over the world and people of all ethnicity. We have a very rich culture, insipired by other
+                            cultures.</p>
+
+                            <p>This is why MMSS wanted to broadcast our beautiful heritage and show to the world the Mauritian ways.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Pictures-->
+                <div class="col-md-3 my-1 py-1">
+                    <div class="card">
+                        <img class="card-img-top" src="https://spacegeneration.org/wp-content/uploads/2018/09/mauritius-background-apsgw.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">&copy;SGAC</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 my-1 py-1">
+                    <div class="card">
+                    <img class="card-img-top" src="https://pbs.twimg.com/media/CmqUGH4XEAAAwc2?format=jpg&name=small" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">&copy;Twitter</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="page-footer bg-danger">
+        <div class="footer-copyright text-center py-3">
+            &copy;2020 MMSS | Made with <img src="Elements/heartme.png" alt="" width="20" height="20"> by
+            <a class="text-light" href="https://github.com/yjuwaheer" target="_blank">Yudish</a>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
