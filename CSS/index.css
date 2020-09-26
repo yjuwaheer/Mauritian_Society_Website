@@ -1,8 +1,9 @@
 .floating-icon {
     color: white !important;
     text-decoration: none;
-    background-image: linear-gradient(to right, #002ABD, #00D5E5);
-    border-radius: 50%;
+    background: #e6e6e6;
+    opacity: 0.5;
+    border-radius: 5%;
     border: black 2px solid !important;
     height: 80px;
     width: 80px;
@@ -19,11 +20,13 @@
 .floating-icon:active {
     color: white !important;
     text-decoration: none;
-    background-image: linear-gradient(to left, #002ABD, #00D5E5);
+    background: #bfbfbf;
+    opacity: 1;
 }
 
 .floating-icon:hover {
     color: white !important;
     text-decoration: none;
-    background-image: linear-gradient(to left, #002ABD, #00D5E5);
+    background-image: #bfbfbf;
+    opacity: 1;
 }
